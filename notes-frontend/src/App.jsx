@@ -51,7 +51,7 @@ function App() {
         <Routes>
           {/* Guest / Public Routes (Redirect to /dashboard if already logged in) */}
           <Route
-            path="/login"
+            path="/"
             element={
               <PublicRoute>
                 <Login />
